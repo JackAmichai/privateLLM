@@ -93,8 +93,7 @@ if prompt := st.chat_input("Ask about your user interviews..."):
         
         with st.spinner("Analyzing psyche..."):
             try:
-                # In the future, we can pass 'mode' to vault.ask()
-                response = vault.ask(prompt)
+                response = vault.ask(prompt, mode)
                 
                 # Simulate typing effect
                 for chunk in response.split():

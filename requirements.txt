@@ -1,5 +1,8 @@
 langchain-community
 langchain-core
+langchain-ollama
+langchain-chroma
 ollama
 chromadb
 streamlit
+pydantic-settings
