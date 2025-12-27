@@ -1,4 +1,4 @@
-# PrivateLLM: InsightVault 🧠
+# PrivateLLM: InsightVault 
 
 **Secure, Local, Privacy-First User Research Analysis**
 
