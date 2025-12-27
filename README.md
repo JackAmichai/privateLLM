@@ -4,7 +4,7 @@
 
 InsightVault (PrivateLLM) is a Retrieval-Augmented Generation (RAG) application designed to analyze sensitive user data—such as interview transcripts and feedback—without ever sending data to the cloud. It runs entirely on your local machine using [Ollama](https://ollama.com) and Llama 3.
 
-## 🚀 Key Features
+##  Key Features
 
 *   **100% Local Execution**: Powered by Llama 3 running via Ollama. No API keys, no data leakage.
 *   **Privacy-First RAG**: Your data stays in a local vector database (ChromaDB).
@@ -14,7 +14,7 @@ InsightVault (PrivateLLM) is a Retrieval-Augmented Generation (RAG) application 
     *   **The 5 Whys**: Root cause analysis framework.
 *   **Interactive UI**: Built with Streamlit for a clean, chat-based experience.
 
-## 🛠️ Architecture
+##  Architecture
 
 *   **LLM**: Llama 3 (via Ollama)
 *   **Embeddings**: Nomic / Llama 3 (via Ollama)
@@ -22,7 +22,7 @@ InsightVault (PrivateLLM) is a Retrieval-Augmented Generation (RAG) application 
 *   **Frontend**: Streamlit
 *   **Framework**: LangChain
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -46,7 +46,7 @@ InsightVault (PrivateLLM) is a Retrieval-Augmented Generation (RAG) application 
     pip install -r requirements.txt
     ```
 
-## 🏃‍♂️ Usage
+##  Usage
 
 ### 1. Ingest Data
 Before asking questions, you need to "teach" the AI about your data.
